@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 30px;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.timer-settings {
+    margin: 40px 0;
+}
+
+.timer-btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+    .timer-btn:hover {
+        background-color: #e63946;
+    }
+
+.timer-display {
+    margin-top: 40px;
+}
+
+#timer-text {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#countdown {
+    font-size: 3em;
+    color: #ffcc00;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
